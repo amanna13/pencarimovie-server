@@ -37,7 +37,6 @@ services:
       # above in public mode.
       - key: PM_PUBLIC
         value: "0"
-        sync: false
       # Ephemeral disk: storage/catalog_settings.json is gone after every
       # restart/redeploy, so the dashboard's catalog/upstream/stream config is
       # supplied here instead (a JSON object; any subset of the file's keys).
